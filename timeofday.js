@@ -1,6 +1,6 @@
 'use strict';
 // global vars
-let cd lastTimeTag;
+let lastTimeTag;
 let greetings = [
 	'Night',
 	'Early Morning',
@@ -45,7 +45,7 @@ export function update() {
 	// Why are we keeping a reference for past time tags? How often is update called?
 	if (lastTimeTag != timeTag) {
 		lastTimeTag = timeTag
-		thisLayer.text = newString.replace('$', engine.userProperties.name);
+		thisLayer.text = timeTag.replace('$', engine.userProperties.name);
 	}
 }
 
