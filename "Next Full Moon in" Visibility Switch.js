@@ -1,14 +1,10 @@
 
 'use strict';
 
-/**
- * @param {String} value (for property 'text')
- */
-//var lastString;
+
 var lastb;
-//var stringIndex = 0;
 export function update() {
- 
+  
 //This section loads the current date
 let year = new Date().getFullYear();
 let month = new Date().getMonth();

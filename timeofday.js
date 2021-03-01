@@ -12,7 +12,7 @@ var lastTimeTag;
 
 export function update() {
 	let hour = new Date().getHours();
-	let timeTag = getTimeTag(hour)
+	let timeTag = getTimeTagFrom(hour)
 	console.log(hour, timeTag);
 
 	// Why are we keeping a reference for past time tags? How often is update called?
@@ -22,7 +22,7 @@ export function update() {
 	}
 }
 
-function getTimeTag(hour){
+function getTimeTagFrom(hour){
 	switch (hour) {
 		case hour < 5 :
 		timeTag = greetings[0]
@@ -49,5 +49,5 @@ function getTimeTag(hour){
 		break;
 	}
 }
-
+// I had to explicitly call update because im working outside of engine
 update()
