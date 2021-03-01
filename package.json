@@ -1,0 +1,20 @@
+{
+  "type": "module",
+  "name": "swe-lunar-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\"Next Full Moon in\" Visibility Switch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelJahns/SWE-Lunar-Calendar.git"
+  },
+  "author": "William Jahns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelJahns/SWE-Lunar-Calendar/issues"
+  },
+  "homepage": "https://github.com/MichaelJahns/SWE-Lunar-Calendar#readme"
+}
